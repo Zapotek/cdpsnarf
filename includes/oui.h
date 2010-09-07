@@ -1,8 +1,8 @@
 /*
- *   $Id: oui.h 773 2008-02-09 23:08:11Z zapotek $
- *      
  *     CDPSnarf CDP packet sniffer
- *   Copyright (C) 2006-2007   Zapotek
+ *   Copyright (C) 2006-2010   Anastasios "Zapotek" Laskos
+ *                                  <tasos.laskos@gmail.com>
+ *                                  <zapotek@segfault.gr>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by

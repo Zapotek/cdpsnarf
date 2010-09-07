@@ -1,8 +1,8 @@
 /*
- *   $Id: cdpsnarf.c 797 2008-02-18 21:40:31Z zapotek $
- *      
  *     CDPSnarf CDP packet sniffer
- *   Copyright (C) 2006-2007   Zapotek
+ *   Copyright (C) 2006-2010   Anastasios "Zapotek" Laskos
+ *                                  <tasos.laskos@gmail.com>
+ *                                  <zapotek@segfault.gr>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -194,8 +194,11 @@ int main( int argc, char *argv[] ) {
     int i = 0;
    
     printf( "CDPSnarf %s [%s] initiated.\n", VERSION, SVN_REV );
-    printf( "   Author: Zapotek <zapotek@segfault.gr>\n" );
-    printf( "   Website: http://www.segfault.gr\n\n" );
+    printf( "   Author: Anastasios \"Zapotek\" Laskos\n" );
+    printf( "             <tasos.laskos@gmail.com>\n" );
+    printf( "                <zapotek@segfault.gr>\n" );
+    printf( "   Website: http://www.segfault.gr\n" );
+    printf( "            http://github.com/Zapotek/cdpsnarf\n\n" );
     
     // get command line arguments
     while( ( c = getopt( argc, argv, "i:dhw:r:" ) ) != -1 ) {

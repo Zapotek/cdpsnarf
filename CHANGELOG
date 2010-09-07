@@ -1,4 +1,3 @@
-$Id: CHANGELOG 795 2008-02-18 21:40:04Z zapotek $
 
 Version 0.1.6
 	* Added support for the "IP Prefixes/Gateway" CDP field

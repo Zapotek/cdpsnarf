@@ -1,7 +1,8 @@
-$Id: README 796 2008-02-18 21:40:19Z zapotek $
 				
 				CDPSnarf v0.1.6 Cisco Discovery Protocol Sniffer
-				    by Zapotek [zapotek@segfault.gr]
+				    by Anastasios "Zapotek" Laskos
+				        <tasos.laskos@gmail.com>
+				          <zapotek@segfault.gr>
 
 	           Licensed under the GNU General Public License v2
 
@@ -56,7 +57,7 @@ libpcap.so.0.8.
 
 Bug reports/Feature requests
 -------------------------------
-Please send your feedback to zapotek@segfault.gr .
+Please send your feedback using GitHub's issue system (http://github.com/Zapotek/cdpsnarf/issues).
 I will do my best to apply bugfixes and add new features as fast as possible.
 
 License
