@@ -1,0 +1,29 @@
+$Id: CHANGELOG 795 2008-02-18 21:40:04Z zapotek $
+
+Version 0.1.6
+	* Added support for the "IP Prefixes/Gateway" CDP field
+
+Version 0.1.5
+	* Added support for dump files (using the "-w <savefile>" argument)
+	* Added help output
+	* Added IPv6 support
+	* Added debugging support (using the "-d" flag)
+	* Added source MAC address to the output
+	* Added support for extra TLV types
+	  (The majority of TLV types is now supported)
+	* Added support for reading PCAP dumps instead of listening on an interface
+	  (using the "-r <dumpfile>" argument)
+	  
+Version 0.1.4
+	* Improved PCAP filter expression as there were reports of false positives
+	  (Props go to the usual suspect...)
+	  
+Version 0.1.3
+	* free'd memory allocations and fixed memory leaks
+	* fixed segfault when printing/parsing IP addresses
+	(Thanks to paul@expsys.com for pointing that out.)
+	
+Version 0.1.1
+	* invalid IP address returned when CDP packet contained IP address of 0.0.0.0,
+	  accompanied by possible segfault.
+	  (Thanks to paul@expsys.com for pointing that out.)
