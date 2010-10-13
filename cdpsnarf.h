@@ -1,6 +1,6 @@
 /*
  *     CDPSnarf CDP packet sniffer
- *   Copyright (C) 2006-2010   Anastasios "Zapotek" Laskos
+ *   Copyright (C) 2006-2010   Tasos "Zapotek" Laskos
  *                                  <tasos.laskos@gmail.com>
  *                                  <zapotek@segfault.gr>
  *
@@ -111,7 +111,7 @@ static assoc_array type_hello_vals[] = {
 
 #define MAC_OFFSET 6
 
-// bytes the from the beggining of the packet used for Ethernet and LLC
+// bytes the from the beginning of the packet used for Ethernet and LLC
 #define ENCAP_OFFSET  22
 
 // sizes of the type and length fields in the TLV structure
@@ -131,7 +131,7 @@ char *PROTO_TYPES[] = {
 double long PROTO[] = {
     0x81,
     0xCC,
-    0x86DD, // Cisco says 0x0800 for IPv6 alhtough it is 86DD
+    0x86DD, // Cisco says 0x0800 for IPv6 although it is 86DD
     0x6003,
     0x809B,
     0x8137,

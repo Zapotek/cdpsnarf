@@ -1,6 +1,6 @@
 /*
  *     CDPSnarf CDP packet sniffer
- *   Copyright (C) 2006-2010   Anastasios "Zapotek" Laskos
+ *   Copyright (C) 2006-2010   Tasos "Zapotek" Laskos
  *                                  <tasos.laskos@gmail.com>
  *                                  <zapotek@segfault.gr>
  *
@@ -20,7 +20,9 @@
  */
 
 /**
- * @author: Zapotek <zapotek@segfault.gr>
+ * @author: Tasos "Zapotek" Laskos  <tasos.laskos@gmail.com>
+ *                                  <zapotek@segfault.gr>
+ *
  * @description:
  *      CDPSnarf is a network sniffer exclusively written to extract
  *      information from CDP packets.
@@ -194,11 +196,10 @@ int main( int argc, char *argv[] ) {
     int i = 0;
    
     printf( "CDPSnarf %s [%s] initiated.\n", VERSION, SVN_REV );
-    printf( "   Author: Anastasios \"Zapotek\" Laskos\n" );
-    printf( "             <tasos.laskos@gmail.com>\n" );
-    printf( "                <zapotek@segfault.gr>\n" );
-    printf( "   Website: http://www.segfault.gr\n" );
-    printf( "            http://github.com/Zapotek/cdpsnarf\n\n" );
+    printf( "   Author: Tasos \"Zapotek\" Laskos\n" );
+    printf( "           <tasos.laskos@gmail.com>\n" );
+    printf( "              <zapotek@segfault.gr>\n" );
+    printf( "   Website: http://github.com/Zapotek/cdpsnarf\n\n" );
     
     // get command line arguments
     while( ( c = getopt( argc, argv, "i:dhw:r:" ) ) != -1 ) {
@@ -310,7 +311,7 @@ int main( int argc, char *argv[] ) {
             
             // unexpected error
             case -1:
-                fprintf( stderr, "An error occured while capturing packet.\n" );
+                fprintf( stderr, "An error occurred while capturing packet.\n" );
                 return( 2 );
             
             // timeout

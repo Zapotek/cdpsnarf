@@ -1,6 +1,6 @@
 /*
  *     CDPSnarf CDP packet sniffer
- *   Copyright (C) 2006-2010   Anastasios "Zapotek" Laskos
+ *   Copyright (C) 2006-2010   Tasos "Zapotek" Laskos
  *                                  <tasos.laskos@gmail.com>
  *                                  <zapotek@segfault.gr>
  *

@@ -1,16 +1,16 @@
-				
-				CDPSnarf v0.1.6 Cisco Discovery Protocol Sniffer
-				    by Anastasios "Zapotek" Laskos
-				        <tasos.laskos@gmail.com>
-				          <zapotek@segfault.gr>
+                
+                CDPSnarf v0.1.6 Cisco Discovery Protocol Sniffer
+                    by Tasos "Zapotek" Laskos
+                        <tasos.laskos@gmail.com>
+                          <zapotek@segfault.gr>
 
-	           Licensed under the GNU General Public License v2
+               Licensed under the GNU General Public License v2
 
 
 
 General
 ----------
-	CDPSnarf is a network sniffer exclusively written to extract
+    CDPSnarf is a network sniffer exclusively written to extract
 information from CDP packets.
 It provides all the information a "show cdp neighbors detail"
 command would return on a Cisco router and even more.
@@ -18,22 +18,22 @@ command would return on a Cisco router and even more.
 Features
 -----------
 A feature list follows:
-	o Time intervals between CDP advertisements
-	o Source MAC address
-	o CDP Version
-	o TTL
-	o Checksum
-	o Device ID
-	o Software version
-	o Platform
-	o Addresses
-	o Port ID
-	o Capabilities
-	o Duplex
-	o Save packets in PCAP dump file format
-	o Read packets from PCAP dump files
-	o Debugging information (using the "-d" flag)
-	o Tested with IPv4 and IPv6 [1]
+    o Time intervals between CDP advertisements
+    o Source MAC address
+    o CDP Version
+    o TTL
+    o Checksum
+    o Device ID
+    o Software version
+    o Platform
+    o Addresses
+    o Port ID
+    o Capabilities
+    o Duplex
+    o Save packets in PCAP dump file format
+    o Read packets from PCAP dump files
+    o Debugging information (using the "-d" flag)
+    o Tested with IPv4 and IPv6 [1]
 
 [1] Other protocols will be detected and addresses will be printed in an
 IPv6 hexadecimal format
@@ -42,18 +42,15 @@ Usage
 ------
 Issue the "make" command to built CDPsnarf from source.
 Then issue:
-	sudo bin/cdpsnarf -i <device>
-	
+    sudo cdpsnarf -i <device>
+    
 More options with:
-	sudo bin/cdpsnarf -h
+    cdpsnarf -h
 
 Requirements
 -------------
 * PCAP library [http://www.tcpdump.org]
 * GCC
-
-Precompiled binaries found under "bin/" are dynamically linked against
-libpcap.so.0.8.
 
 Bug reports/Feature requests
 -------------------------------
